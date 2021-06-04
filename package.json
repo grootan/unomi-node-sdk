@@ -1,0 +1,42 @@
+{
+  "name": "unomi-node-sdk",
+  "version": "1.2.0",
+  "description": "Node.js sdk for the Apache Unomi cdp",
+  "main": "./dist/main.js",
+  "types": "./src/types/main.d.ts",
+  "private": false,
+  "author": "lokesh.ravichandru@grootan.com",
+  "keywords": [
+    "unomi",
+    "apache",
+    "CDP",
+    "node-sdk",
+    "sdk"
+  ],
+  "files": [
+    "/dist",
+    "/src",
+    "/*.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grootan/unomi-node-sdk"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.12.0",
+    "@types/elasticsearch": "^5.0.37",
+    "axios": "^0.21.1",
+    "mjn": "0.2.2",
+    "nanoid": "^3.1.23"
+  },
+  "devDependencies": {
+    "@types/node": "12.0.7",
+    "typescript": "3.5.1",
+    "typescript-eslint-parser": "22.0.0"
+  }
+}
