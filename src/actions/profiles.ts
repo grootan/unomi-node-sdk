@@ -287,5 +287,5 @@ export function totalVisits(axios: AxiosInstance, query: QueryParams[]): Filtere
     type: "booleanCondition"
   };
 
-  return callUnomi(() => axios.post(`cxs/query/profile/profile.properties.nbOfVisits/sum`, fullQuery), "query-sum");
+  return callUnomi(() => axios.post(`cxs/query/profile/properties.nbOfVisits/sum`, fullQuery), "query-sum");
 }
