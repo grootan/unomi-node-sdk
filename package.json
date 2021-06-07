@@ -1,6 +1,6 @@
 {
   "name": "unomi-node-sdk",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Node.js sdk for the Apache Unomi cdp",
   "main": "./dist/main.js",
   "types": "./src/types/main.d.ts",
